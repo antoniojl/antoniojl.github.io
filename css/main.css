@@ -1,0 +1,106 @@
+body {
+	/* comments are useful */
+	background-color: rgb(150,200,255);
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+	background: rgba(255, 255, 255, 0.85);
+	border-radius: 20px;
+	box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.85);
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+img {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 20px dashed purple;
+	border-radius: 50%;
+}
+
+/* CSS comments look like this */
+
+h1 {
+	text-align: center;
+	font-size: 70px;
+	margin: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.7;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	color: orangered;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+h3 + * {
+	display: none;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+	display: flex;
+	justify-content: center;
+}
+
+nav a {
+	color: white;
+	background: orangered;
+	padding: 3px 5px;
+	margin: 0 2px;
+}
+
+
+
+
+
